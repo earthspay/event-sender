@@ -93,12 +93,12 @@ class EventSender {
     // insert code if not already there
     if (document.getElementById('piwik')) return;
 
-		const URL = '//wavesplatform.innocraft.cloud/';
+		const URL = '//earths.innocraft.cloud/';
 
     this._pushAll('_paq', [
       ['setDocumentTitle', document.domain + '/' + document.title],
-      ['setCookieDomain', '*.wavesplatform.com'],
-      ['setDomains', ['*.wavesplatform.com']],
+      ['setCookieDomain', '*.earths.ga'],
+      ['setDomains', ['*.earths.ga']],
       ['trackPageView'],
       ['enableLinkTracking'],
       ['setTrackerUrl', URL + 'piwik.php'],
